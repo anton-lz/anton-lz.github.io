@@ -102,7 +102,7 @@ sub {
 
 // Attention grabber
 .attention-grabber {
-  @include font-size(1.2);
+  @include font-size(4.2);
 }
 
 @media screen and (min-width: #{ $max-width + 5 + 'em'}) {

@@ -42,7 +42,7 @@ html {
     @import '../mixins/margin';
 
     @include line-height(1);
-    @include margin-bottom(0.5);
+    @include margin-bottom(1);
     max-width: #{$max-width * $base-desktop + 'px'};
     max-width: #{$max-width + 'rem'};
     margin-left: auto;
@@ -59,7 +59,4 @@ html {
 
 body {
   margin: 0;
-}
-h1,h2,h3,h4,h5,h6 {
-    color: $color-font-headings;
 }
